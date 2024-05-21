@@ -10,6 +10,7 @@
     height: 70px;
     background-color: rgb(4, 4, 40);
 }
+/* parle logo */
 .boxes-1{
     padding: 25px;
 }
@@ -17,6 +18,7 @@
     width: 120px;
     height: 25px;
 }
+/* header text */
 .boxes-2{
     position: absolute;
     right: 20px;
@@ -28,6 +30,9 @@
      padding: 30px;
      cursor: pointer;
      letter-spacing: 2px;   
+}
+.box:hover{
+    color: red;
 }
 .box3{
     background-color: transparent;
@@ -45,7 +50,7 @@
     border: none;
     padding: 3px;
 }
-
+/* first image */
 .image1{
     width: 100%;
 }
@@ -108,7 +113,6 @@
     display: flex;
     flex-direction: row;
     margin: 50px;
-
 }
 ul{
     list-style: none;
@@ -119,6 +123,14 @@ ul{
 }
 .container6 ul li{
     cursor: pointer;
+}
+h4 li:hover{
+    color: red;
+    text-decoration: underline;
+}
+strong:hover{
+    color: red;
+    text-decoration: underline;
 }
 /* third column */
 .container7{
